@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/Developer",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "b9b66b4d-5bea-4500-b255-2021644b4e75",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "b9b66b4d-5bea-4500-b255-2021644b4e75",
+    "name" : "AEA Service",
+    "description" : null,
+    "script" : "c2hhcmVkU3RhdGUucHV0KCJlbW90aW9uYWxSaXNrU2NvcmUiLCByZXNwb25zZS5lbW90aW9uYWxSaXNrU2NvcmUpOwo=",
+    "default" : false,
+    "language" : "JAVASCRIPT",
+    "context" : "AUTHENTICATION_TREE_DECISION_NODE",
+    "createdBy" : "null",
+    "creationDate" : 0,
+    "lastModifiedBy" : "null",
+    "lastModifiedDate" : 0
+  }
+}

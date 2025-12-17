@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/Developer",
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Scripts",
+    "entityId" : "251166f8-9ff1-489d-b9e1-d3de62b414af",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "251166f8-9ff1-489d-b9e1-d3de62b414af",
+    "name" : "AeaEmotionalRiskNode",
+    "description" : null,
+    "script" : "LyoKICogQUVBIEVtb3Rpb25hbCBSaXNrIFNjcmlwdGVkIERlY2lzaW9uIE5vZGUKICogT3V0Y29tZXM6IExPVywgTUVESVVNLCBISUdICiAqLwoKLy8gVGhyZXNob2xkIGNvbmZpZ3VyYXRpb24KdmFyIExPV19USFJFU0hPTEQgPSAyNTsKdmFyIEhJR0hfVEhSRVNIT0xEID0gNjA7CgovLyBSZWFkIGVtb3Rpb25hbCByaXNrIHNjb3JlIGZyb20gc2hhcmVkU3RhdGUKdmFyIHNjb3JlID0gc2hhcmVkU3RhdGUuZ2V0KCJlbW90aW9uYWxSaXNrU2NvcmUiKTsKCi8vIERlZmF1bHQgb3V0Y29tZQp2YXIgb3V0Y29tZTsKCi8vIFNhZmV0eTogaWYgc2NvcmUgaXMgbWlzc2luZywgdHJlYXQgYXMgTUVESVVNIHJpc2sKaWYgKHNjb3JlID09PSBudWxsIHx8IHNjb3JlID09PSB1bmRlZmluZWQpIHsKICAgIG91dGNvbWUgPSAiTUVESVVNIjsKfSBlbHNlIHsKICAgIC8vIENvbnZlcnQgdG8gbnVtYmVyIChGb3JnZVJvY2sgbWF5IHRyZWF0IGl0IGFzIEphdmEgb2JqZWN0KQogICAgc2NvcmUgPSBOdW1iZXIoc2NvcmUpOwoKICAgIGlmIChzY29yZSA8IExPV19USFJFU0hPTEQpIHsKICAgICAgICBvdXRjb21lID0gIkxPVyI7CiAgICB9IGVsc2UgaWYgKHNjb3JlIDwgSElHSF9USFJFU0hPTEQpIHsKICAgICAgICBvdXRjb21lID0gIk1FRElVTSI7CiAgICB9IGVsc2UgewogICAgICAgIG91dGNvbWUgPSAiSElHSCI7CiAgICB9Cn0KCi8vIEZvcmdlUm9jayBleHBlY3RzIGBvdXRjb21lYCB2YXJpYWJsZQpvdXRjb21lOwo=",
+    "default" : false,
+    "language" : "JAVASCRIPT",
+    "context" : "AUTHENTICATION_TREE_DECISION_NODE",
+    "createdBy" : "null",
+    "creationDate" : 0,
+    "lastModifiedBy" : "null",
+    "lastModifiedDate" : 0
+  }
+}
