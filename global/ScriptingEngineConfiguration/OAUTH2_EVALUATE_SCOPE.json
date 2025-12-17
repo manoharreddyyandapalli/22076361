@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptingEngineConfiguration",
+    "entityId" : "engineConfiguration",
+    "pathParams" : {
+      "contexts" : "OAUTH2_EVALUATE_SCOPE"
+    }
+  },
+  "data" : {
+    "_id" : "engineConfiguration",
+    "serverTimeout" : 0,
+    "propertyNamePrefix" : "script",
+    "useSecurityManager" : true,
+    "maxThreads" : 50,
+    "coreThreads" : 10,
+    "whiteList" : [ "org.forgerock.util.promise.PromiseImpl", "org.codehaus.groovy.runtime.GStringImpl", "org.forgerock.json.JsonValue", "org.forgerock.openam.oauth2.token.grantset.Authorization$ModifiedAccessToken", "sun.security.ec.ECPrivateKeyImpl", "java.lang.Character", "com.google.common.collect.Sets$1", "java.lang.Float", "java.util.LinkedHashMap", "org.forgerock.openidconnect.Claim", "org.forgerock.http.protocol.*", "java.util.Collections$UnmodifiableMap", "org.forgerock.openam.scripting.api.identity.ScriptedIdentityRepository", "com.iplanet.sso.providers.dpro.SessionSsoToken", "com.sun.identity.common.CaseInsensitiveHashMap", "java.lang.Double", "org.forgerock.macaroons.Macaroon", "org.forgerock.openam.oauth2.token.stateless.StatelessAccessToken", "org.forgerock.http.client.*", "java.lang.Object", "java.util.HashMap$Node", "com.sun.identity.idm.AMIdentity", "org.forgerock.openam.scripting.api.identity.ScriptedIdentity", "org.forgerock.openam.shared.security.crypto.CertificateService", "com.sun.identity.shared.debug.Debug", "java.util.LinkedHashMap$Entry", "org.forgerock.openam.oauth2.OpenAMAccessToken", "java.util.Locale", "org.forgerock.oauth2.core.StatefulAccessToken", "groovy.json.JsonSlurper", "java.util.Collections$UnmodifiableSet", "java.util.Collections$1", "org.forgerock.openam.scripting.api.PrefixedScriptPropertyResolver", "java.util.HashMap$KeyIterator", "java.lang.Byte", "java.lang.String", "java.util.LinkedHashSet", "org.forgerock.oauth.clients.oidc.Claim", "java.util.HashSet", "org.forgerock.oauth2.core.UserInfoClaims", "java.util.HashMap", "java.util.Collections$SingletonList", "java.util.TreeMap", "java.util.TreeSet", "java.util.HashMap$Entry", "org.mozilla.javascript.JavaScriptException", "org.forgerock.openidconnect.ssoprovider.OpenIdConnectSSOToken", "java.util.HashMap$KeySet", "java.lang.Long", "java.net.URI", "java.util.LinkedList", "java.util.ArrayList", "org.forgerock.openam.oauth2.token.macaroon.MacaroonAccessToken", "org.codehaus.groovy.runtime.ScriptBytecodeAdapter", "java.lang.Math", "org.forgerock.oauth2.core.exceptions.InvalidRequestException", "groovy.json.internal.LazyMap", "java.util.LinkedHashMap$LinkedEntrySet", "java.lang.Void", "java.util.Map", "org.forgerock.http.Client", "java.util.Collections$UnmodifiableCollection$1", "org.forgerock.openam.scripting.api.http.GroovyHttpClient", "java.lang.Integer", "java.util.Collections$UnmodifiableRandomAccessList", "java.util.Collections$EmptyList", "java.lang.Boolean", "org.forgerock.openam.scripting.api.http.JavaScriptHttpClient", "org.forgerock.openam.scripting.api.secrets.ScriptedSecrets", "java.lang.StrictMath", "java.lang.Character$UnicodeBlock", "java.util.AbstractMap$SimpleImmutableEntry", "java.util.ArrayList$Itr", "java.lang.Short", "java.util.List", "org.forgerock.oauth2.core.GrantType", "java.lang.Character$Subset", "java.lang.Number", "java.util.LinkedHashMap$LinkedEntryIterator" ],
+    "idleTimeout" : 60,
+    "queueSize" : 10,
+    "blackList" : [ "java.lang.Class", "java.lang.reflect.*", "java.security.AccessController" ],
+    "_type" : {
+      "_id" : "engineConfiguration",
+      "name" : "Scripting engine configuration",
+      "collection" : false
+    }
+  }
+}

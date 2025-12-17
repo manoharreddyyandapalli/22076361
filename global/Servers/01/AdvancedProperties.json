@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AdvancedProperties",
+    "entityId" : "http://localhost:8080/key",
+    "pathParams" : {
+      "serverName" : "http://localhost:8080/key"
+    }
+  },
+  "data" : {
+    "_id" : "01/properties/advanced",
+    "com.sun.identity.common.systemtimerpool.size" : "3",
+    "opensso.protocol.handler.pkgs" : "",
+    "com.sun.embedded.replicationport" : "",
+    "com.sun.embedded.sync.servers" : "on",
+    "com.iplanet.am.serverMode" : true,
+    "com.iplanet.security.SSLSocketFactoryImpl" : "com.sun.identity.shared.ldap.factory.JSSESocketFactory",
+    "com.sun.identity.sm.sms_object_class_name" : "com.sun.identity.sm.SmsWrapperObject",
+    "com.sun.identity.urlconnection.useCache" : false,
+    "org.forgerock.embedded.dsadminport" : "4444",
+    "com.iplanet.am.lbcookie.value" : "01",
+    "bootstrap.file" : "C:UsersMANO HP.openamcfg/AMConfig_Forgerock_apache-tomcat-9.0.80_webapps_key_"
+  }
+}

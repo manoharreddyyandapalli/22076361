@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "AuthenticatorWebAuthn",
+    "entityId" : "AuthenticatorWebAuthn",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "authenticatorWebAuthnDeviceSettingsEncryptionKeystore" : "C:/Users/MANO HP/key/security/keystores/keystore.jceks",
+      "authenticatorWebAuthnDeviceSettingsEncryptionKeystorePassword" : null,
+      "authenticatorWebAuthnDeviceSettingsEncryptionScheme" : "NONE",
+      "webauthnAttrName" : "webauthnDeviceProfiles",
+      "authenticatorWebAuthnDeviceSettingsEncryptionKeystoreType" : "JCEKS"
+    },
+    "_type" : {
+      "_id" : "authenticatorWebAuthnService",
+      "name" : "WebAuthn Profile Encryption Service",
+      "collection" : false
+    }
+  }
+}

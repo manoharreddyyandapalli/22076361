@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "BaseUrlSource",
+    "entityId" : "BaseUrlSource",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "source" : "REQUEST_VALUES",
+      "contextPath" : "/key"
+    },
+    "_type" : {
+      "_id" : "baseurl",
+      "name" : "Base URL Source",
+      "collection" : false
+    }
+  }
+}

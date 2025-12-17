@@ -1,0 +1,14 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "Servers",
+    "entityId" : "01",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "01",
+    "url" : "http://localhost:8080/key",
+    "siteName" : null
+  }
+}

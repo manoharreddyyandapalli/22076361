@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptingEngineConfiguration",
+    "entityId" : "engineConfiguration",
+    "pathParams" : {
+      "contexts" : "AUTHENTICATION_TREE_DECISION_NODE"
+    }
+  },
+  "data" : {
+    "_id" : "engineConfiguration",
+    "serverTimeout" : 0,
+    "propertyNamePrefix" : "script",
+    "useSecurityManager" : true,
+    "maxThreads" : 50,
+    "coreThreads" : 10,
+    "whiteList" : [ "org.forgerock.util.promise.PromiseImpl", "org.codehaus.groovy.runtime.GStringImpl", "java.security.PrivateKey", "sun.security.ec.ECPrivateKeyImpl", "java.lang.Character", "org.forgerock.http.protocol.Responses", "java.lang.Float", "org.forgerock.http.header.authorization.*", "org.forgerock.util.promise.Promise", "java.lang.Double", "javax.crypto.spec.OAEPParameterSpec", "javax.crypto.spec.PSource$*", "com.sun.identity.authentication.callbacks.ScriptTextOutputCallback", "org.forgerock.http.client.*", "org.forgerock.openam.scripting.api.identity.ScriptedIdentity", "org.mozilla.javascript.ConsString", "java.util.Collections$*", "com.sun.identity.authentication.spi.MetadataCallback", "org.forgerock.http.protocol.RequestCookies", "groovy.json.JsonSlurper", "java.lang.Byte", "java.security.KeyPairGenerator$*", "java.util.HashSet", "java.util.HashMap", "javax.security.auth.callback.LanguageCallback", "org.forgerock.http.header.*", "org.forgerock.openam.scripting.idrepo.ScriptIdentityRepository", "org.forgerock.openam.authentication.callbacks.IdPCallback", "org.forgerock.openam.authentication.callbacks.ValidatedPasswordCallback", "com.sun.identity.authentication.spi.HttpCallback", "org.forgerock.openam.auth.node.api.Action$ActionBuilder", "org.forgerock.openam.core.rest.authn.callbackhandlers.*", "java.util.ArrayList", "java.lang.Math", "com.sun.identity.authentication.spi.RedirectCallback", "org.forgerock.http.Client", "java.util.Map", "java.util.Collections$UnmodifiableCollection$1", "org.forgerock.openam.scripting.api.http.GroovyHttpClient", "org.forgerock.http.protocol.Message", "org.forgerock.http.protocol.Headers", "java.lang.StrictMath", "org.forgerock.openam.scripting.api.ScriptedSession", "java.security.spec.MGF1ParameterSpec", "org.forgerock.http.protocol.Request", "org.forgerock.openam.auth.node.api.Action", "java.util.List", "java.lang.Character$Subset", "java.lang.Number", "org.forgerock.http.Handler", "javax.security.auth.callback.TextInputCallback", "org.forgerock.json.JsonValue", "javax.security.auth.callback.TextOutputCallback", "javax.security.auth.callback.PasswordCallback", "java.util.Collections", "org.forgerock.http.protocol.Response", "java.util.LinkedHashMap", "java.security.PublicKey", "com.sun.identity.authentication.spi.X509CertificateCallback", "org.forgerock.http.context.RootContext", "org.forgerock.openam.authentication.callbacks.PollingWaitCallback", "org.forgerock.http.Context", "java.security.KeyPairGenerator", "java.lang.Object", "org.forgerock.openam.shared.security.crypto.CertificateService", "org.forgerock.openam.authentication.callbacks.ValidatedUsernameCallback", "com.sun.identity.shared.debug.Debug", "org.forgerock.http.protocol.Entity", "org.forgerock.util.promise.NeverThrowsException", "org.forgerock.openam.scripting.api.PrefixedScriptPropertyResolver", "java.util.HashMap$KeyIterator", "org.forgerock.openam.core.rest.devices.profile.DeviceProfilesDao", "java.lang.String", "java.util.LinkedHashSet", "javax.security.auth.callback.ChoiceCallback", "com.sun.identity.authentication.callbacks.HiddenValueCallback", "java.security.spec.X509EncodedKeySpec", "java.util.TreeMap", "java.util.TreeSet", "org.forgerock.http.protocol.Cookie", "org.mozilla.javascript.JavaScriptException", "java.lang.Long", "org.forgerock.http.protocol.Status", "java.util.LinkedList", "javax.security.auth.callback.ConfirmationCallback", "org.codehaus.groovy.runtime.ScriptBytecodeAdapter", "java.lang.Void", "org.forgerock.http.protocol.Form", "java.lang.Integer", "javax.crypto.spec.PSource", "java.security.KeyPair", "java.util.Collections$UnmodifiableRandomAccessList", "java.lang.Boolean", "org.forgerock.openam.scripting.api.http.JavaScriptHttpClient", "org.forgerock.openam.scripting.api.secrets.Secret", "org.forgerock.openam.scripting.api.secrets.ScriptedSecrets", "java.lang.Character$UnicodeBlock", "org.forgerock.http.protocol.Header", "org.forgerock.http.protocol.ResponseException", "javax.security.auth.callback.NameCallback", "java.lang.Short", "org.forgerock.openam.auth.node.api.NodeState", "java.util.AbstractMap$*" ],
+    "idleTimeout" : 60,
+    "blackList" : [ "java.lang.Class", "java.security.AccessController", "java.lang.reflect.*" ],
+    "queueSize" : 10,
+    "_type" : {
+      "_id" : "engineConfiguration",
+      "name" : "Scripting engine configuration",
+      "collection" : false
+    }
+  }
+}

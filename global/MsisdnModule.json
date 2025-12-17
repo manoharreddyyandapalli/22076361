@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "MsisdnModule",
+    "entityId" : "MsisdnModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "baseSearchDN" : [ "dc=openam,dc=forgerock,dc=org" ],
+      "authenticationLevel" : 0,
+      "msisdnRequestSearchLocations" : [ "searchRequest", "searchParam", "searchCookie" ],
+      "returnUserDN" : true,
+      "userProfileMsisdnAttribute" : "sunIdentityMSISDNNumber",
+      "ldapSslEnabled" : false,
+      "msisdnUserNamingAttribute" : "uid",
+      "ldapUserBindDN" : "cn=Directory Manager",
+      "msisdnParameterNames" : [ ],
+      "ldapProviderUrl" : [ "localhost:50638" ],
+      "trustedGatewayIPAddresses" : [ ]
+    },
+    "_type" : {
+      "_id" : "msisdn",
+      "name" : "MSISDN",
+      "collection" : false
+    }
+  }
+}

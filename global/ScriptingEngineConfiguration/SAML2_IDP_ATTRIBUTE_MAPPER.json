@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "ScriptingEngineConfiguration",
+    "entityId" : "engineConfiguration",
+    "pathParams" : {
+      "contexts" : "SAML2_IDP_ATTRIBUTE_MAPPER"
+    }
+  },
+  "data" : {
+    "_id" : "engineConfiguration",
+    "serverTimeout" : 0,
+    "propertyNamePrefix" : "script",
+    "useSecurityManager" : true,
+    "maxThreads" : 50,
+    "coreThreads" : 10,
+    "whiteList" : [ "org.forgerock.util.promise.PromiseImpl", "org.codehaus.groovy.runtime.GStringImpl", "org.forgerock.json.JsonValue", "com.iplanet.am.sdk.AMHashMap", "com.sun.identity.saml2.common.SAML2Exception", "org.w3c.dom.Document", "java.lang.Character", "java.lang.Float", "java.util.LinkedHashMap", "com.iplanet.sso.providers.dpro.SessionSsoToken", "java.lang.Double", "com.sun.identity.common.CaseInsensitiveHashMap", "org.forgerock.http.client.*", "java.lang.Object", "java.util.HashMap$Node", "org.forgerock.openam.shared.security.crypto.CertificateService", "java.util.LinkedHashMap$Entry", "com.sun.identity.shared.debug.Debug", "groovy.json.JsonSlurper", "java.util.Collections$1", "org.w3c.dom.Element", "java.util.HashMap$KeyIterator", "java.lang.Byte", "java.util.Collections$EmptyMap", "java.lang.String", "java.util.LinkedHashSet", "java.util.HashSet", "java.util.HashMap", "javax.xml.parsers.DocumentBuilder", "java.util.Collections$SingletonList", "org.xml.sax.InputSource", "java.util.TreeMap", "java.util.TreeSet", "java.util.HashMap$Entry", "org.mozilla.javascript.JavaScriptException", "java.util.HashMap$KeySet", "java.lang.Long", "java.net.URI", "java.util.LinkedList", "java.util.ArrayList", "org.codehaus.groovy.runtime.ScriptBytecodeAdapter", "java.lang.Math", "groovy.json.internal.LazyMap", "java.util.LinkedHashMap$LinkedEntrySet", "com.sun.identity.saml2.assertion.impl.AttributeImpl", "java.lang.Void", "org.forgerock.http.Client", "java.util.Collections$UnmodifiableCollection$1", "com.sun.identity.saml2.plugins.scripted.IdpAttributeMapperScriptHelper", "javax.xml.parsers.DocumentBuilderFactory", "org.forgerock.openam.scripting.api.http.GroovyHttpClient", "java.lang.Integer", "java.util.Collections$UnmodifiableRandomAccessList", "java.util.Collections$EmptyList", "java.lang.Boolean", "org.forgerock.openam.scripting.api.http.JavaScriptHttpClient", "java.lang.StrictMath", "java.lang.Character$UnicodeBlock", "java.util.AbstractMap$SimpleImmutableEntry", "java.util.ArrayList$Itr", "javax.servlet.http.Cookie", "java.lang.Short", "java.lang.Character$Subset", "java.lang.Number", "java.util.LinkedHashMap$LinkedEntryIterator" ],
+    "idleTimeout" : 60,
+    "queueSize" : 10,
+    "blackList" : [ "java.lang.Class", "java.lang.reflect.*", "java.security.AccessController" ],
+    "_type" : {
+      "_id" : "engineConfiguration",
+      "name" : "Scripting engine configuration",
+      "collection" : false
+    }
+  }
+}

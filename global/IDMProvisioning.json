@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "8.0.2",
+    "entityType" : "IDMProvisioning",
+    "entityId" : "IDMProvisioning",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "provisioningClientScopes" : [ "fr:idm:*" ],
+    "idmProvisioningClient" : "idm-provisioning",
+    "useInternalOAuth2Provider" : false,
+    "jwtSigningCompatibilityMode" : false,
+    "enabled" : false,
+    "configurationCacheDuration" : 0,
+    "_type" : {
+      "_id" : "idm-integration",
+      "name" : "IdmIntegrationService",
+      "collection" : false
+    }
+  }
+}
